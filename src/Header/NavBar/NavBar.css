@@ -1,0 +1,51 @@
+.Logo1{
+    position: relative;
+    top: 25px;
+    width: 15%;
+    border-radius: 50px;
+    
+}
+.navbar-brand{
+    margin-left: 10%;
+}
+.navbar-collapse{
+    margin-right: 5%;
+
+}
+.navbar-brand>h1{
+    position: relative;
+    margin-left: 17%;
+    color: rgb(255, 196, 0);
+    bottom: 40px;   
+}
+.bg-light{
+     
+    height: 100px;
+}
+.nav-link{
+color: black;
+}
+.btn-primary>.nav-link{
+    color: white;
+    font-size: large;
+    
+   
+}
+.btn-primary{
+    position: relative;
+    bottom: 7px;
+    padding: 1%;
+    border-radius: 25px;
+    padding-bottom: 2%;
+    border: none;
+}
+.btn-primary:hover{ background-color:rgb(255, 255, 255);}
+#btn{
+    color: white;
+}
+#btn:hover{
+    color: black;
+    font-weight: bold;
+   
+}
+
