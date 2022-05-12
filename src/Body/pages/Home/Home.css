@@ -1,0 +1,33 @@
+.container>img{
+    position: relative;
+    left: -200px;
+    width: 1500px;
+    height: 450px;
+}
+.section1{
+    position: relative;
+    bottom: 400px;
+    left: 70px;
+
+}
+.Description{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(255, 196, 0);
+}
+.section11>h4{
+    color: white;
+    display: inline;
+    margin-left: 30px;
+    font-weight: bold;
+   
+}
+
+.section11{
+    padding: 5%;
+    margin-left: 13%;
+    width: 60%;
+    border: solid white;
+    
+}
+
