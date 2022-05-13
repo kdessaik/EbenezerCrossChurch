@@ -110,7 +110,7 @@ bottom: 200px;
     padding-bottom: 3%;  
     cursor: pointer;
 }
-.container-lg>.Holiness:hover::after{
+.container-lg>.Holiness:hover::after{ 
     color: white;
     position: relative;
     top: 70px;
