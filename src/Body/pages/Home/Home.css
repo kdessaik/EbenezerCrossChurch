@@ -101,6 +101,9 @@ bottom: 200px;
     color: green;
 }
 .container-lg>.Holiness:hover{
+    position: relative;
+    left: 0px;
+    bottom: 100px;
     border: #888888 solid;
     padding: 2%;
     background-color: green; 
@@ -126,6 +129,9 @@ bottom: 200px;
 
 }
 .container-lg>.Love:hover{
+    position: relative;
+    right: 100px;
+    bottom: 100px;
     border: #888888 solid;
     padding: 2%;
     background-color: black; 
@@ -149,8 +155,12 @@ bottom: 200px;
        
 }
 .container-lg>.Equilibrium:hover{
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+    
     border: #888888 solid;
-    padding: 2%;
+    padding: 1%;
     background-color: rgba(215, 158, 0, 0.968); 
     width: 500px;
     height: 600px; 
