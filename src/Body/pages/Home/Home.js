@@ -65,6 +65,7 @@ export function Construction(){
                  We want to build this temple with you, to give a great awakening to all mankind.
                  We want to build this temple according to the vision that God has given us and by associating you with its construction,
                  so that this blessing is distributed to all of God's children.</p>
+                 <button>Discover</button>
             
             </div>
 

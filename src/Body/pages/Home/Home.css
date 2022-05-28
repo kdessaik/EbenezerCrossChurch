@@ -190,12 +190,9 @@ bottom: 200px;
     position: relative;
     bottom: 450px;
     left: 50px;
+    margin-top: 2%;
     color: white;
    
-   
-  
-   
-
 }
 .container-Ction>h1{
     font-family:Impact ;
@@ -207,9 +204,22 @@ bottom: 200px;
     width: 70%;
     float: center;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 10%;
     
   
+}
+.container-Ction>button{
+    margin-left: 30%;
+    background-color: transparent;
+    border: white solid;
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+   
+}
+.container-Ction>button:hover{
+    background-color: white;
+    color: rgb(107, 107, 107);
 }
 
 
