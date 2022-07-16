@@ -1,12 +1,18 @@
 import React from 'react'
-import {Description,About,OurValue,Construction} from './pages/Home/Home'
+import {Description,About,OurValue,Construction,Biography,Program} from './pages/Home/Home'
 
 function Body() {
   return (
-    <div><Description/>
+    <div>
+           
+          <Description/>
          <About/>
          <OurValue/>
          <Construction/>
+         <Biography/>
+         <Program/>
+
+     
     
     </div>
   )

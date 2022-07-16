@@ -1,18 +1,16 @@
-body{
-    background-image: url(../../../images/BACK2.JPG);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.container>img{
-    position: relative;
-    left: -200px;
-    width: 1500px;
-    height: 450px;
+
+
+.container1>img{
+    position: sticky;
+    top: 0px;
+    
+    width: 1800px;
+    height: 1200px;
 }
 .section1{
     position: relative;
-    top: 100px;
-    left: 70px;
+    left: 200px;
+    bottom: 1000px;
 
 }
 .Description{
@@ -30,23 +28,26 @@ body{
 
 .section11{
     padding: 5%;
-    margin-left: 13%;
+    margin-left: 5%;
     width: 60%;
     border: solid white;
     border-radius: 70px 0px 70px 0px;
+    text-align: center ;
     
 }
 #About{
-    position: initial;
+    position: relative;
     background-image: url(../../../images/churchInside25.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 500px;
-    border-radius: 25px;
+   
+    height: 600px;
+    
     text-align: center;
-    padding: 0%;
+  
     
   box-shadow: 10px 10px 18px 18px#888888;
+  bottom: 600px;
 }
 .container{
     margin-bottom: 20%;
@@ -55,6 +56,7 @@ body{
 color: rgb(254, 254, 254);
 font-weight: bold;
 font-size: 70px;
+font-family: 'Courier New', Courier, monospace;
 
 }
 #About>button{
@@ -184,7 +186,9 @@ bottom: 200px;
     
 }
 #Value{
+    position: relative;
     height: 100px;
+    bottom: 200px;
 }
 .container-Ction{
     position: relative;
@@ -197,6 +201,7 @@ bottom: 200px;
 .container-Ction>h1{
     font-family:Impact ;
     font-size: 70px;
+    text-align: center;
 }
 .container-Ction>p{
     font-size: 120%;
@@ -204,12 +209,14 @@ bottom: 200px;
     width: 70%;
     float: center;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     
   
 }
 .container-Ction>button{
-    margin-left: 30%;
+    margin-left: 45%;
     background-color: transparent;
     border: white solid;
     color: white;
@@ -221,9 +228,109 @@ bottom: 200px;
     background-color: white;
     color: rgb(107, 107, 107);
 }
+#BioJeremie>.JeremieBio{
+    margin-top: 50%;
+    width: 50%;
+}
+
+#BioJeremie{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: 435px;
+    background-color: rgb(240,241,243);
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 100%;
+    height: 600px;
+}
+
+#BioJeremie>img{
+    position: relative;
+    margin-left: 20%;
+    
+}
+.JeremieBio{
+    position: relative;
+    bottom: 600px;
+    width: 200px;
+   
+}
+.JeremieBio>h1{
+    position: relative;
+    display: inline;
+font-size: 35px;
+font-weight: bold;
+
+}
+.JeremieBio>p{
+    margin-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.JeremieBio>button{
+    border: none;
+    background-color: #888888;
+    color: white;
+    width: 20%;
+    padding: 2% 20% 2% 5%;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.JeremieBio>button:hover{
+    background-color: #ffffff; 
+    color: #888888; 
+}
+#program{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 
-.imgConstrution{
+}
+#program>div{
+    margin-left: 10%;
+}
+#program>div>img{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+#program1{
+    position: relative;
+    bottom: 200px;
+}
+#program1>h1{
+    position: relative;
+    bottom: 100px;
+    margin-left: 35%;
+}
+#program>div>#imgProgram1{
+  width: 150px; 
   
+}
+#program>div{
+    margin: 5%;
+}
+#imgProgram1{
+    width: 150%;
+    height: 150px;
+}
+#program>div:hover{
+    background-color: #8d853e;
+    padding: 1%;
+    cursor: pointer;
+   
 
+}
+#program>div:active{
+     transform:scale(2.0)
+}
+#program>div>p{
+    font-family: 'Courier New', Courier, monospace;
 }
