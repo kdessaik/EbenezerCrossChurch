@@ -109,12 +109,12 @@ export function Program() {
         <div id="program">
           <div>
             <h1>Sunday</h1>
-            <img src={preaching} alt="Loading..." />
+            <img src={preaching} alt="Loading..."  />
             <p> 8:45' a.m. to 12:30' a.m.</p>
           </div>
           <div>
             <h1>Sunday School</h1>
-            <b />
+        
             <img src={preaching2} alt="Loading..." id="imgProgram1" />
             <p>7:00' a.m. to 8h:30' a.m.</p>
           </div>

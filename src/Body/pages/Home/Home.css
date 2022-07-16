@@ -290,12 +290,11 @@ font-weight: bold;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-align: center;
 
 
 }
-#program>div{
-    margin-left: 10%;
-}
+
 #program>div>img{
     width: 150px;
     border-radius: 50%;
@@ -322,15 +321,26 @@ font-weight: bold;
     height: 150px;
 }
 #program>div:hover{
-    background-color: #8d853e;
+    box-shadow: 20px 20px 50px grey;
     padding: 1%;
     cursor: pointer;
    
 
 }
 #program>div:active{
-     transform:scale(2.0)
+     transform:scale(1.5);
+     border-radius: 25px;
 }
 #program>div>p{
     font-family: 'Courier New', Courier, monospace;
+}
+#imgProgram2{
+    position: relative;
+    right: 5%;;
+   
+
+}
+#program>div>p{
+margin-top: 5%;
+text-align: center;
 }
