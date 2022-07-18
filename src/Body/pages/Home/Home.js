@@ -12,6 +12,11 @@ import churchInside from "../../../images/churchInside.jpg";
 import BibleStudy from "../../../images/biblestudy.jpg";
 import YouthCenter from "../../../images/preaching2.JPG";
 import Delivrace from "../../../images/Delivrace.jpg";
+import Gabela from '../../../images/Gabela.jpg'
+import Kalemushushu1 from '../../../images/Kalemushushu1.jpg'
+import Kalobeiy1 from '../../../images/Kalobeiy1.jpg'
+import ExtensionBack from '../../../images/ExtensionBack.jpg'
+
 
 export function Description() {
   return (
@@ -146,4 +151,32 @@ export function Program() {
       </div>
     </div>
   );
+}
+export function Extensions(){
+  return(
+    <div className="Extension01" id="Extension1">
+      <h1> Ours Extensions</h1>
+     
+      <div className="container" id="Extension2">
+      <div id="Extension">
+        <h4>Kalemushushu</h4>
+        <img src={Kalemushushu1} alt='Loading...'/>
+        <p>Address: Kalemushushu ,Kakuma1,Turkana County</p>
+      </div>
+
+      <div id="Extension">
+      <h4>Kalobei</h4>
+        <img  src={Kalobeiy1} alt="Loading..."/>
+        <p>Ebenezer cross church in Village1,Kalobei,Turkana County</p>
+      </div>
+
+      <div id="Extension">
+      <h4>Ngabela</h4>
+        <img src={Gabela} alt='Loading...'/>
+        <p>Ebenezer cross church in Kakuma2,Turkana County</p>
+      </div>
+      </div>
+     
+    </div>
+  )
 }

@@ -3,6 +3,7 @@ import Logo from "../../images/logo.jpg"
 import "./NavBar.css"
 
 export default function Navbar () {
+ 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id='NavBar'>
       
