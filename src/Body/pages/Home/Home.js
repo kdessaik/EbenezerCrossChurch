@@ -200,7 +200,7 @@ export function Offering(){
       <q>In all things I have shown you that by working hard in this way we must help the weak and remember the words of the Lord Jesus, how he himself said, It is more blessed to give than to receive</q></p>
       <div className="offering001">
         
-         <button id='Offerings1'>Offering</button>
+         <button id='Offerings1'>Giving</button>
          <button  id='Offerings2'>Tithe</button>
          <button  id='Offerings3'>Contribution</button>
           
