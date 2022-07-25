@@ -1,5 +1,5 @@
 import React from 'react'
-import {Description,About,OurValue,Construction,Biography,Program,Extensions} from './pages/Home/Home'
+import {Description,About,OurValue,Construction,Biography,Program,Extensions,Offering} from './pages/Home/Home'
 
 function Body() {
   return (
@@ -12,6 +12,7 @@ function Body() {
          <Biography/>
          <Program/>
          <Extensions/>
+         <Offering/>
 
      
     

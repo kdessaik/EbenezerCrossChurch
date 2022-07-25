@@ -16,6 +16,10 @@ import Gabela from '../../../images/Gabela.jpg'
 import Kalemushushu1 from '../../../images/Kalemushushu1.jpg'
 import Kalobeiy1 from '../../../images/Kalobeiy1.jpg'
 import ExtensionBack from '../../../images/ExtensionBack.jpg'
+import offering from '../../../images/offering.jpg'
+import tithe from '../../../images/tithe.png'
+import construbution  from '../../../images/construbution.jpg'
+
 
 
 export function Description() {
@@ -97,7 +101,7 @@ export function Biography() {
         <h1>Pastor Jeremie BISIMWA</h1>
         <p>
           He was baptized in 1988 and then in 2010 he received the word of God.
-          His wife is Salim Nyandinda Jeremie and he is the father of 5 children{" "}
+          His wife is Salim Nyandinda Jeremie and father of 5 children{" "}
         </p>
         <button className="Bio">Biography</button>
       </div>
@@ -167,16 +171,46 @@ export function Extensions(){
       <div id="Extension">
       <h4>Kalobei</h4>
         <img  src={Kalobeiy1} alt="Loading..."/>
-        <p>Ebenezer cross church in Village1,Kalobei,Turkana County</p>
+        <p>Address: Village1,Kalobei,Turkana County</p>
+         <button type="button" className="btn btn-warning">
+        For More
+      </button>
       </div>
+     
 
       <div id="Extension">
       <h4>Ngabela</h4>
         <img src={Gabela} alt='Loading...'/>
-        <p>Ebenezer cross church in Kakuma2,Turkana County</p>
+        <p>Address: Kakuma2,Turkana County</p>
       </div>
+      
       </div>
+      
+      
      
     </div>
   )
 }
+
+export function Offering(){
+  return(
+    <div className="container" id="Offerings">
+      <h1>Offerings</h1>
+      <p>Acts 20:35<br/>
+      <q>In all things I have shown you that by working hard in this way we must help the weak and remember the words of the Lord Jesus, how he himself said, It is more blessed to give than to receive</q></p>
+      <div className="offering001">
+        
+         <button id='Offerings1'>Offering</button>
+         <button  id='Offerings2'>Tithe</button>
+         <button  id='Offerings3'>Contribution</button>
+          
+       
+       
+          
+       
+         
+      </div>
+    </div>
+  )
+}
+
