@@ -60,6 +60,7 @@ font-size: 70px;
 font-family: 'Courier New', Courier, monospace;
 
 }
+
 #About>button{
     width: 15%;
     margin-left: 15px;
@@ -439,10 +440,11 @@ margin: 5%;
 .offering0001{
     width: 100%;
 }
-#Offerings>h1{
+#Offerings>h1,#Chanel>h1{
     text-align: center;
     font-size: 50px;
     margin: 2%;
+    font-weight: bold;
 }
 #Offerings{
     position: relative;
@@ -601,3 +603,35 @@ margin: 5%;
  
 }
 
+.YoutubeChainePhoto{
+    width: 15%;
+}
+.facebook{
+    width: 7%;
+}
+#Chanel{
+    position: relative;
+    bottom: 500px;
+    right: 50px;
+}
+#Chanel>p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    margin: 2%;
+    margin-top: 7%;
+    margin-left: 20%;
+    font-size:40px;
+
+}
+#Chanel>p>a{
+margin: 2%;
+}
+#YoutubeVideo{
+    margin-left: 10%;
+}
+#BioBtn{
+   
+    text-align: center;
+    padding-right: 150px;
+    
+}

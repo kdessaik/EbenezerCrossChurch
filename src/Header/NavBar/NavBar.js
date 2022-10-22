@@ -35,7 +35,7 @@ export default function Navbar () {
         <a className="nav-link" href="#">Contact</a>
       </li>
       <li className="nav-item btn btn-primary">
-        <a className="nav-link" id='btn' href="#">Donation</a>
+        <a className="nav-link" id='btn' href="#">Offerings</a>
     </li>
     </ul>
   </div>

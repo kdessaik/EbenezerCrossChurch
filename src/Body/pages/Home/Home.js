@@ -19,8 +19,8 @@ import ExtensionBack from '../../../images/ExtensionBack.jpg'
 import offering from '../../../images/offering.jpg'
 import tithe from '../../../images/tithe.png'
 import construbution  from '../../../images/construbution.jpg'
-
-
+import Youtube from '../../../images/Youtube.png'
+import facebook from '../../../images/facebook.png'
 
 export function Description() {
   return (
@@ -103,7 +103,7 @@ export function Biography() {
           He was baptized in 1988 and then in 2010 he received the word of God.
           His wife is Salim Nyandinda Jeremie and father of 5 children{" "}
         </p>
-        <button className="Bio">Biography</button>
+        <button className="Bio" id="BioBtn">Biography</button>
       </div>
 
       <img src={pastor1} alt="loading..." />
@@ -210,6 +210,18 @@ export function Offering(){
        
          
       </div>
+    </div>
+  )
+}
+export function ChainelYoutube(){
+  return(
+    <div className="container" id="Chanel">
+      <h1>Our preaching</h1>
+      <p>Follow Services Live on <a href="https://www.youtube.com/channel/UCGTdQOKCj-1Pld-hxdHbEww" target='_blank'><img className="YoutubeChainePhoto" src={Youtube}/></a> and <a href="https://web.facebook.com/profile.php?id=100070969517644" target='_blank'><img className="facebook" src={facebook}/></a></p>
+      <div>
+      <iframe width="1000" id="YoutubeVideo" height="500" src="https://www.youtube.com/embed/qRfTysXa6BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
     </div>
   )
 }
