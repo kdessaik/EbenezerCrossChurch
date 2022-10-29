@@ -477,7 +477,7 @@ margin: 5%;
     border: none;
     background-color: transparent;
     font-size: 40px;
-    color: #deae1e;
+    color: white;
     font-weight: bold;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -496,6 +496,9 @@ margin: 5%;
     
     
 
+}
+.offering001{
+  background-color: #deae1e;
 }
 .offering001>#Offerings1:hover{
     
@@ -524,7 +527,7 @@ margin: 5%;
     border: none;
     background-color: transparent;
     font-size: 40px;
-    color: #deae1e;
+    color: white;
     font-weight: bold;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -567,7 +570,7 @@ margin: 5%;
     border: none;
     background-color: transparent;
     font-size: 40px;
-    color: #deae1e;
+    color: white;
     font-weight: bold;
     background-repeat: no-repeat;
     background-size: 100%;

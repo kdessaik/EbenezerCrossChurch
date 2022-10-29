@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Logo from "../../images/logo.jpg"
 import "./NavBar.css"
 
@@ -14,16 +15,19 @@ export default function Navbar () {
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
       <li className="nav-item active ">
-        <a className="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+  
+        <Link className="nav-link" to='/' >Home <span class="sr-only">(current)</span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Extensions</a>
+       
+        <Link className="nav-link" to='/extension'>Extensions</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Construction</a>
+        
+        <Link className="nav-link" to='/program'>Programs</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Online</a>
+      <Link className="nav-link" to='/online'>Online</Link>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#">Helping</a>

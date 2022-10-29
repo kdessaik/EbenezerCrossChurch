@@ -45,56 +45,34 @@ export default function Footer() {
                 Ebenezer Cross Church
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+              Ebenezer Cross Church was founded in 1992 as Zaïrian Church.
+               Refugees who came from DRCongo, created the church for praising God.
+               The church has tree extensions in Kakuma camp and Kalobei settlement. 
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  React
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Laravel
-                </a>
-              </p>
-            </MDBCol>
+           
 
-            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  Pricing
+            <MDBCol md="3" lg="1" xl="3" className="mx-auto mb-4" >
+              <h6  className="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p id='useful'>
+                <a href="#!" className="text-reset"  >
+                  Extensions
                 </a>
               </p>
-              <p>
+              <p id='useful'>
                 <a href="#!" className="text-reset">
-                  Settings
+                  Construction 
                 </a>
               </p>
-              <p>
+              <p id='useful'>
                 <a href="#!" className="text-reset">
-                  Orders
+                  Online 
                 </a>
               </p>
-              <p>
+              <p id='useful'>
                 <a href="#!" className="text-reset">
-                  Help
+                Media
                 </a>
               </p>
             </MDBCol>
@@ -103,18 +81,20 @@ export default function Footer() {
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+               Kakuma 1,Zone 1,Block 9
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+          
+                <a href='mailto:Ebenezercrosschurch@gmail.com'> Ebenezercrosschurch@gmail.com</a>
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" /> <a href="tel:+254 7919780723" >+254 7919780723</a> 
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" /> <a href="tel:+254 728119217" >+254 728119217</a> 
               </p>
+              
             </MDBCol>
           </MDBRow>
         </MDBContainer>
@@ -124,9 +104,9 @@ export default function Footer() {
         className="text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
-        © 2021 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          MDBootstrap.com
+        © 2022 Copyright:
+        <a className="text-reset fw-bold" href="https://Ebenezercrosschurch.com/">
+        Ebenezercrosschurch.com
         </a>
       </div>
     </MDBFooter>
