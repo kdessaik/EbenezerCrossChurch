@@ -4,13 +4,20 @@ import Logo from "../../images/logo.jpg"
 import "./NavBar.css"
 
 export default function Navbar () {
+  const NavPhone=()=>{
+  
+  }
  
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id='NavBar'>
       
-  <a className="navbar-brand" href="#"><img src={Logo} className="Logo1"  alt='Loading '/> <h1>Ebenezer Cross Church</h1></a>
-  <button className="navbar-toggler" type="button" datatoggle="collapse"  datatarget="#navbarNavDropdown" ariac-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
+  <a className="navbar-brand" href="#"><img src={Logo} className="Logo1"  alt='Loading '/> <h1> <span>Ebenezer</span> <span>Cross</span> <span>Church</span> </h1></a>
+  <button className="navbar-toggler" type="button" datatoggle="collapse"  datatarget="#navbarNavDropdown" ariac-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onClick={NavPhone}>
+    <span className="navbar-toggler-icon" id='navCollapse'>
+
+
+      
+    </span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
