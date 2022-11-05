@@ -27,11 +27,11 @@ export function Description() {
     <section className="container1" id="container1">
       <img src={DescriptionPhoto} alt="loading..." />
       <div className="section1">
-        <h1 className="Description">Ebenezer Cross Church</h1> <br />
+        <h1 className="Description">Ebenezer Cross <span>Church</span></h1> <br />
         <div className="section11">
-          <h4>~HOLINESS </h4>
-          <h4>~LOVE </h4>
-          <h4>~EQUILIBRIUM </h4>
+          <h4 id="devision1"> ~HOLINESS </h4>
+        <h4 id="devision2"><span>~LOVE</span>  </h4>
+          <h4 id="devision3">~EQUILIBRIUM </h4>
         </div>
       </div>
     </section>
