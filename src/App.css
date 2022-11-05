@@ -6,7 +6,7 @@
 #NavBar>a{
    position: relative;
    left: 30%;
-   bottom: 60px;
+   bottom: 50px;
 } 
 
 #NavBar>a>h1 span{
@@ -71,5 +71,9 @@
 .Description{
     position: relative;
     top: 40px;
+}
+#container1{
+    margin-top: 10%;
+margin-bottom: -55%;
 }
 }
