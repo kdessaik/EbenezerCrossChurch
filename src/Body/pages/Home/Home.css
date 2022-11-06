@@ -740,10 +740,7 @@ height: 300px;
     font-weight: bold;
  }
 
-#Offerings{
-    position: relative;
-    top: 200px;
-}
+
 #Extension2{
     display: flex;
     flex-direction: column;
@@ -765,5 +762,62 @@ height: 300px;
 .btn-warning{
     position: relative;
     top: 262px;
+}
+#Offerings{
+    position: relative;
+    top: -500px;
+}
+#Offerings>p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 5%;
+    margin-left: 0%;
+    font-size: 30px;
+}
+.offering001{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20%;
+    padding-bottom: 150px;
+    
+
+}
+#Offerings3 {
+    position: relative;
+    right: 0px;
+}
+#Chanel {
+    position: relative;
+    bottom: 350px;
+    right: 50px;
+    
+}
+#Chanel>h1{
+    font-size: 40px;
+    margin-right: -20%;
+}
+.YoutubeChainePhoto {
+    width: 50%;
+}
+.facebook {
+    width: 20%;
+}
+#YoutubeVideo {
+  position: relative;
+  left: 5%;
+    width: 100%;
+}
+.border-bottom>div>a>svg{
+    width: 100%;
+}
+svg{
+    width: 150%;
+}
+.text-muted {
+    position: relative;
+    top: -100px;
+    background-color: #F0F1F3;
 }
 }
