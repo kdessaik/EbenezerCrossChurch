@@ -652,8 +652,70 @@ margin: 2%;
         font-size: 17px;
         line-height:normal;
     }
+    #About{
+        margin-bottom: -100%;
+    }
     .btn-warning{
         position: relative;
         bottom: 2%;
     }
+    .container-lg{
+        position: relative;
+        bottom: 70px;
+    }
+    .container-lg{
+        display: flex;
+        flex-direction: column;
+        bottom: 10%;
+    }
+.container-lg>p{
+    position: relative;
+    bottom: 100px;
+    margin: 5%;
+}
+#Value{
+    margin-top: 50%;
+}
+.container4{
+    position: relative;
+    top: 200px;
+}
+.container4>img{
+width: 100%;
+height: 300px;
+}
+.container-Ction>h1{
+   
+    font-size: 15px;
+    line-height: normal;
+}  
+.container-Ction>p{
+    font-size: 20px;
+    line-height: normal;
+} 
+ 
+.container-Ction{
+    position: relative;
+    left: -1%;
+  
+    margin-top: 50%;
+    width: 100%;
+    
+    
+}
+.container-Ction>h1{
+    font-size: 20px;
+}
+.container-Ction>p{
+    font-size: 11px;
+}
+.container4{
+    margin-left: 0%;
+}
+.container-Ction>button{
+    margin-left:35% ;
+}
+#BioJeremie{
+    margin-top: 500px;
+}
 }

@@ -58,9 +58,10 @@ export function OurValue() {
     <section className="container" id="Value">
       <h1>OUR VALUES</h1>
       <div className="container-lg">
+        
         <p className="Holiness">
-          <img src={Holiness} className="container-fluid" />
-          HOLINESS
+        <img src={Holiness} className="container-fluid" />
+          HOLINESS 
         </p>
         <p className="Love">
           <img src={Love} className="container-fluid" />
