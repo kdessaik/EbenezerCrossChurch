@@ -76,4 +76,12 @@
     margin-top: 10%;
 margin-bottom: -55%;
 }
+
+#About>h1{
+    text-decoration:none;
+
+}
+.about{
+    color: brown;
+}
 }

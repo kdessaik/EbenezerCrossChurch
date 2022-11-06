@@ -39,8 +39,8 @@ export function Description() {
 }
 export function About() {
   return (
-    <section className="About" id="About">
-      <h1>ABOUT</h1>
+    <section  id="About">
+      <h1 id='titleAbout' className="about">ABOUT</h1>
       <br />
       <p>
         Ebenezer Cross Church was founded in 1992 as Zaïrian Church. Refugees
