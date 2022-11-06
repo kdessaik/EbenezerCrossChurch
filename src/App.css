@@ -84,5 +84,24 @@ margin-bottom: -55%;
 .about{
     color: brown;
 }
-
+.BioJeremie{
+    width: 100%;
+}
+#BioJeremie>img{
+    margin-top: 50%;
+    width: 60%;
+    height: 390px;
+}
+.JeremieBio{
+    position: relative;
+    top:-20%;
+    left: 5%;
+}
+.JeremieBio>button{
+    position: relative;
+    right: 20%;
+    top: 15%;
+    margin-left: -20%;
+    width: 200px;
+}
 }
