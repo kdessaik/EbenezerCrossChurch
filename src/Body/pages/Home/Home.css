@@ -676,6 +676,12 @@ margin: 2%;
 #Value{
     margin-top: 50%;
 }
+.container-lg>.Equilibrium:hover{
+    margin-left: 50%;
+}
+.container-lg>.Love:hover{
+    margin-left: 35%;
+}
 .container4{
     position: relative;
     top: 200px;
@@ -718,4 +724,6 @@ height: 300px;
 #BioJeremie{
     margin-top: 500px;
 }
+
+
 }
