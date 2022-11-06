@@ -724,6 +724,21 @@ height: 300px;
 #BioJeremie{
     margin-top: 500px;
 }
+#program1>h1{
+    font-size: 25px;
+    margin-bottom: 80%;
+}
+#program{
+    position: relative;
+    right: 10%;
+    bottom: 350px;
+    
+     
+ }
+ #sundaySchool{
+    font-size: 25px;
+    font-weight: bold;
+ }
 
 
 }
