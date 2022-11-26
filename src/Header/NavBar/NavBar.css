@@ -51,7 +51,36 @@ color: black;
     font-weight: bold;
    
 }
+.ropdown-toggle{
+    width:200%;
+    background-color: black;
+}
+.btn-primary{
+    color: black;
+    background-color: white;
+    width: 190%;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    right: 10px;
+    border-radius: 5px;
+}
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
 
+#btn-primary{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
 
 
 
