@@ -18,6 +18,7 @@ export default function Navbar() {
           <span>Ebenezer</span> <span>Cross</span> <span>Church</span>{" "}
         </h1>
       </a>
+      
       <button
         className="navbar-toggler"
         type="button"
@@ -30,19 +31,26 @@ export default function Navbar() {
       >
         
         
+        
         <div class="">
   <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  
   <span className="navbar-toggler-icon" id="navCollapse1">
+  
           
   <ul class="dropdown-menu">
+  
 
           <li className="nav-item active ">
             <Link className="nav-link" to="/">
               Home <span class="sr-only">(current)</span>
             </Link>
           </li>
+        
           <li className="nav-item">
+         
             <Link className="nav-link" to="/extension">
+              
               Extensions
             </Link>
           </li>
@@ -58,6 +66,63 @@ export default function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
+              Helping
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="fb.com">
+              Media
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Contact
+            </a>
+          </li>
+          <li className="nav-item btn btn-primary" >
+            <a className="nav-link" id="btn" href="#">
+              Offerings
+            </a>
+          </li>
+        
+  </ul>
+          </span>
+  </button>
+  
+</div>
+          
+
+        
+
+      </button>
+      
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav">
+          <li className="nav-item active ">
+            <Link className="nav-link" to="/">
+              Home <span class="sr-only">(current)</span>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/extension">
+              Extensions
+              
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/program">
+              Programs
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/online">
+              Online
+              
+            </Link>
+            
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" >
               Helping
             </a>
           </li>
@@ -72,65 +137,14 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item btn btn-primary" id="btn-primary">
-            <a className="nav-link" id="btn" href="#">
+            <a className="nav-link" id="btn" href="#" >
               Offerings
             </a>
-          </li>
-        
-  </ul>
-          </span>
-  </button>
-  
-</div>
-          
-        
-        
-
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul className="navbar-nav">
-          <li className="nav-item active ">
-            <Link className="nav-link" to="/">
-              Home <span class="sr-only">(current)</span>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/extension">
-              Extensions
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/program">
-              Programs
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/online">
-              Online
-            </Link>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Helping
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Media
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Contact
-            </a>
-          </li>
-          <li className="nav-item btn btn-primary">
-            <a className="nav-link" id="btn" href="#">
-              Offerings
-            </a>
+            
           </li>
         </ul>
       </div>
+    
     </nav>
   );
 }

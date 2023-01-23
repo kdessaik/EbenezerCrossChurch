@@ -47,8 +47,12 @@ color: black;
     color: white;
 }
 #btn:hover{
-    color: black;
+    color: white;
     font-weight: bold;
+    font-size: 25px;
+    text-transform:uppercase;
+    
+    transition: font-size 400ms
    
 }
 .ropdown-toggle{
@@ -77,9 +81,22 @@ color: black;
 }
 
 #btn-primary{
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: black;
+    background-color: #5799CD;
+    width: 190%;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    
+    border-radius: 5px;
+    position: relative;
+    bottom: 7px;
+    padding: 0%;
+    border-radius: 25px;
+    padding-bottom: 2%;
+    border: none;
+    left: 2%;
+    zoom: 100%;
 }
 
 
