@@ -75,6 +75,44 @@ export function OurValue() {
     </section>
   );
 }
+export function Actuality(){
+  return(
+    <section className="Actualite01" id="Actualite1">
+      <h1> News</h1>
+     
+      <div className="container" id="Extension2">
+      <div id="Extension">
+        <h4>Topic: Umuhimu ya kuishi neno la Mungu</h4>
+        <iframe width="360" height="150" src="https://www.youtube.com/embed/wWbgsDj7KVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>By Mzee Luciano Delphin
+Lika 6:46-48
+Yowana 15:6-7</p>
+      </div>
+
+      <div id="Extension">
+      <h4>Kalobei</h4>
+        <img  src={Kalobeiy1} alt="Loading..."/>
+        <p>Address: Village1,Kalobei,Turkana County</p>
+         <button type="button" className="btn btn-warning">
+        For More
+      </button>
+      </div>
+     
+
+      <div id="Extension">
+      <h4>Ngabela</h4>
+        <img src={Gabela} alt='Loading...'/>
+        <p>Address: Kakuma2,Turkana County</p>
+      </div>
+      
+      </div>
+      
+      
+     
+    </section>
+  )
+}
+
 export function Construction() {
   return (
     <section className="container4">

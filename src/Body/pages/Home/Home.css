@@ -407,6 +407,54 @@ margin: 5%;
    
  
 }
+
+
+
+
+
+
+
+
+#Actualite1{
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+}
+#Actualite1>h1{
+margin: 5%;
+}
+.Actualite01{
+    position: relative;
+  
+    background-color: rgb(220,218,219);
+  
+   
+   
+}
+
+.Actualite01>h1{
+   position: relative;
+   bottom: 100px;
+   font-weight: bold;
+  
+}
+.Actualite01{
+    background-image:url('../../../images/ExtensionBack.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+   
+ 
+}
+
+
+
+
+
+
+
+
+
 #Extension>p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
