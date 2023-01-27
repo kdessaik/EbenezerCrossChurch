@@ -80,30 +80,30 @@ export function Actuality(){
     <section className="Actualite01" id="Actualite1">
       <h1> News</h1>
      
-      <div className="container" id="Extension2">
-      <div id="Extension">
+      <div className="container" id="Actualite2">
+      <div id="Actualite">
         <h4>Topic: Umuhimu ya kuishi neno la Mungu</h4>
-        <iframe width="360" height="150" src="https://www.youtube.com/embed/wWbgsDj7KVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="360" height="200" src="https://www.youtube.com/embed/wWbgsDj7KVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p>By Mzee Luciano Delphin
 Lika 6:46-48
 Yowana 15:6-7</p>
-      </div>
+      </div><hr/>
 
-      <div id="Extension">
-      <h4>Kalobei</h4>
-        <img  src={Kalobeiy1} alt="Loading..."/>
-        <p>Address: Village1,Kalobei,Turkana County</p>
+      <div id="Actualite">
+      <h4>Topic: Faida ya Shukrani</h4>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8vboyeSz4TA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>by Pastor Israel</p>
          <button type="button" className="btn btn-warning">
         For More
       </button>
-      </div>
+      </div><hr/>
      
 
-      <div id="Extension">
-      <h4>Ngabela</h4>
-        <img src={Gabela} alt='Loading...'/>
-        <p>Address: Kakuma2,Turkana County</p>
-      </div>
+      <div id="Actualite">
+      <h4>Topic: Shukurani </h4>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/U4mEIyeJD_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <p>by Pastor Israel</p>
+      </div><hr/>
       
       </div>
       
@@ -233,8 +233,8 @@ export function Extensions(){
 
 export function Offering(){
   return(
-    <div className="container" id="Offerings">
-      <h1>Offerings</h1>
+   <div className="container" id="Offerings">
+     <h1>Offerings</h1>
       <p>Acts 20:35<br/>
       <q>In all things I have shown you that by working hard in this way we must help the weak and remember the words of the Lord Jesus, how he himself said, It is more blessed to give than to receive</q></p>
       <div className="offering001">
