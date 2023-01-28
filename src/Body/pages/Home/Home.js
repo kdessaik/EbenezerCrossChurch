@@ -21,6 +21,9 @@ import tithe from '../../../images/tithe.png'
 import construbution  from '../../../images/construbution.jpg'
 import Youtube from '../../../images/Youtube.png'
 import facebook from '../../../images/facebook.png'
+import YoutubeChanelimage from '../../../images/Chanel.jpeg'
+import Facebookimage from '../../../images/facebook.png'
+
 
 export function Description() {
   return (
@@ -78,8 +81,9 @@ export function OurValue() {
 export function Actuality(){
   return(
     <section className="Actualite01" id="Actualite1">
+      
       <h1> News</h1>
-     
+      <div border='1px 1px solid black'><img src={YoutubeChanelimage} width="100" height="100" alt="loading..." /><h2 style={{color:'#B22222' ,fontFamily:'Fantasy'}}>Youtube chanel</h2><br/></div>
       <div className="container" id="Actualite2">
       <div id="Actualite">
         <h4>Topic: Umuhimu ya kuishi neno la Mungu</h4>
@@ -91,24 +95,42 @@ Yowana 15:6-7</p>
 
       <div id="Actualite">
       <h4>Topic: Faida ya Shukrani</h4>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/8vboyeSz4TA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="360" height="200" src="https://www.youtube.com/embed/8vboyeSz4TA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p>by Pastor Israel</p>
          <button type="button" className="btn btn-warning">
         For More
       </button>
       </div><hr/>
-     
-
       <div id="Actualite">
       <h4>Topic: Shukurani </h4>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/U4mEIyeJD_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="360" height="200" src="https://www.youtube.com/embed/U4mEIyeJD_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <p>by Pastor Israel</p>
       </div><hr/>
       
+      <div>
+      <div className="container" id="Actualite2">
+      <div id="Actualite">
+      <h2 style={{color:"#00008B" ,fontFamily:'Fantasy'	}}>facebook</h2>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fposts%2Fpfbid0N4pmo4CjpunF1ir6Br8gXbSpmSVUosQiGToEbSWy64zNUft7K8VNCDKeC36pbRENl&show_text=true&width=500" width="400" height="639" style={{border:"none",overflow:"hidden",position:"relative",right:'20px'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      
+      <div id="Actualite"><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fposts%2Fpfbid02HxRD6eMfbzEaJRu8WSz321UUHG3XEHLEnH3iDcbNPMRMocDe1KUSEqFVzzVGhJZ9l&show_text=true&width=500" width="400" height="741" style={{border:"none",overflow:"hidden",position:"relative",right:'20px' }} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
+      
+
+      <div id="Actualite">
+      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fvideos%2F6112857658726347%2F&show_text=false&width=560&t=0" width="370" height="314" style={{border:"none",overflow:"hidden",position:"relative",right:'10px'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
       </div>
       
-      
+      </div></div>
      
+        </div>
+      
+      
+      
+      
+
+      
+      </div>
+
     </section>
   )
 }
