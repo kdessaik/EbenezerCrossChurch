@@ -117,7 +117,9 @@ Yowana 15:6-7</p>
       
 
       <div id="Actualite">
-      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fvideos%2F6112857658726347%2F&show_text=false&width=560&t=0" width="370" height="314" style={{border:"none",overflow:"hidden",position:"relative",right:'10px'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <h2>facebook Video</h2>
+      
+      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fvideos%2F6112857658726347%2F&show_text=true&width=560&t=0" width="560" height="429" style={{border:"none",overflow:"hidden",position:"relative",right:'10px'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
       </div>
       
       </div></div>
