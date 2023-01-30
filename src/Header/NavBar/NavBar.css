@@ -17,8 +17,11 @@
 .navbar-brand>h1{
     position: relative;
     margin-left: 17%;
-    color: rgb(255, 196, 0);
+    color: #3C68B2;
     bottom: 40px;   
+}
+.navbar-brand>h1>span{
+    color:#7DC242 ;
 }
 .bg-light{
      

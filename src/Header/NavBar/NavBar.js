@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/logo.jpg";
+import Logo from "../../images/logo.jpeg";
 import "./NavBar.css";
 
 export default function Navbar() {
@@ -15,7 +15,7 @@ export default function Navbar() {
         <img src={Logo} className="Logo1" alt="Loading " />{" "}
         <h1>
           {" "}
-          <span>Ebenezer</span> <span>Cross</span> <span>Church</span>{" "}
+          <span></span> Cross <span>Church</span>{" "}
         </h1>
       </a>
       

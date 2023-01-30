@@ -15,9 +15,13 @@
 
 }
 .Description{
-    font-size: 100px;
+    font-size: 150px;
     font-weight: bold;
-    color: rgb(255, 196, 0);
+    color: #3C68B2;
+    margin-left: 7%;
+}
+.Description>span{
+    color: #7DC242;
 }
 .section11>h4{
     color: white;

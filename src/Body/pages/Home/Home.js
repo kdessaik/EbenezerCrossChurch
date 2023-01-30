@@ -30,7 +30,7 @@ export function Description() {
     <section className="container1" id="container1">
       <img src={DescriptionPhoto} alt="loading..." />
       <div className="section1">
-        <h1 className="Description">Ebenezer Cross <span>Church</span></h1> <br />
+        <h1 className="Description">Cross <span>Church</span></h1> <br />
         <div className="section11">
           <h4 id="devision1"> ~HOLINESS </h4>
         <h4 id="devision2"><span>~LOVE</span>  </h4>
@@ -111,7 +111,7 @@ Yowana 15:6-7</p>
       <div className="container" id="Actualite2">
       <div id="Actualite">
       <h2 style={{color:"#00008B" ,fontFamily:'Fantasy'	}}>facebook</h2>
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fposts%2Fpfbid0N4pmo4CjpunF1ir6Br8gXbSpmSVUosQiGToEbSWy64zNUft7K8VNCDKeC36pbRENl&show_text=true&width=500" width="400" height="639" style={{border:"none",overflow:"hidden",position:"relative",right:'20px'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fcrosschurchkakuma%2Fposts%2Fpfbid02Yqch6EhcxNZt2efVdQh4VhPdrfr483SczLbkphTCi21BV9B9LqC6c31Nq6Tz69eel&show_text=true&width=500" width="400" height="639" style={{border:"none",overflow:"hidden",position:"relative",right:'20px'}} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       
       <div id="Actualite"><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Febenezer.crosschurch%2Fposts%2Fpfbid02HxRD6eMfbzEaJRu8WSz321UUHG3XEHLEnH3iDcbNPMRMocDe1KUSEqFVzzVGhJZ9l&show_text=true&width=500" width="400" height="741" style={{border:"none",overflow:"hidden",position:"relative",right:'20px' }} scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe></div>
       
