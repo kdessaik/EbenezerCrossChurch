@@ -15,7 +15,7 @@ export default function Navbar() {
         <img src={Logo} className="Logo1" alt="Loading " />{" "}
         <h1>
           {" "}
-          <span></span> Cross <span>Church</span>{" "}
+         <b>Ebenezer Cross</b>  <span ><b>Church</b></span>{" "}
         </h1>
       </a>
       

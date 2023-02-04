@@ -21,6 +21,7 @@
     margin-left: 7%;
 }
 .Description>span{
+    margin-left: 20%;
     color: #7DC242;
 }
 .section11>h4{
@@ -40,6 +41,17 @@
     text-align: center ;
     
 }
+#devision1,#devision3{
+    color: #0c2f6b;
+    font-weight: bold;
+}
+#devision2{
+    color: #7DC242;
+    font-weight: bold;
+}
+
+
+
 #About{
     position: relative;
     background-image: url(../../../images/churchInside25.jpg);
